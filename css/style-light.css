@@ -1,0 +1,120 @@
+/* Hintergrundfarbe für den gesamten Körper */
+body {
+  background: #f4f4f4; /* Von #1d2026 nach #f4f4f4 */
+  color: #333; /* Von #8a94a7 nach #333 */
+}
+
+/* Farben für die Überschriften */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #000; /* Von #fff nach #000 */
+}
+
+/* Farben für Links */
+a {
+  color: #0270d7; /* Von #8a94a7 nach #0270d7 */
+}
+
+a:hover,
+a:active {
+  color: #005bb5; /* Von #0275e1 nach #005bb5 */
+}
+
+/* Farben für Markierungen */
+mark {
+  background-color: #ff0; /* Keine Änderung notwendig für Light Theme */
+  color: #000; /* Keine Änderung notwendig für Light Theme */
+}
+
+/* Hintergrundfarben für die Buttons */
+.button {
+  /*background-color: #e0e0e0; /* Von #242830 nach #e0e0e0 */
+  color: #000; /* Von #fff nach #000 */
+}
+
+.button:hover {
+  background: #d0d0d0; /* Von #262a33 nach #d0d0d0 */
+}
+
+.button-primary {
+  background: #0f8afd; /* Von #0270d7 nach #0f8afd */
+}
+
+.button-primary:hover {
+  background: #0275e1; /* Von #0275e1 nach #0275e1 */
+}
+
+/* Hintergrundfarbe für Preformatted Code */
+pre,
+code,
+kbd,
+tt,
+var {
+  background: #f4f4f4; /* Von #1d2026 nach #f4f4f4 */
+  color: #333; /* Von #8a94a7 nach #333 */
+}
+
+/* Farben für Input-Felder */
+.input,
+.textarea {
+  background-color: #fff; /* Keine Änderung notwendig für Light Theme */
+  border-color: #ddd; /* Von #242830 nach #ddd */
+  color: #333; /* Von #8a94a7 nach #333 */
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #999; /* Von #3b404c nach #999 */
+}
+
+/* Farben für Blockquotes */
+blockquote {
+  color: #333; /* Von #3b404c nach #333 */
+}
+
+/* Farben für Address */
+address {
+  color: #333; /* Von #8a94a7 nach #333 */
+  border-color: #ddd; /* Von #242830 nach #ddd */
+}
+
+/* Farben für div mit Animations */
+.screen-reader-text {
+  background-color: #fff; /* Von #1d2026 nach #fff */
+  color: #0270d7; /* Von #0270d7 nach #0270d7 */
+}
+
+/* Farben für den Header */
+.site-header::before {
+  background: #ddd; /* Von #242830 nach #ddd */
+}
+
+.pricing-table-features-title {
+  color: #000;
+}
+
+.pricing-table-inner {
+  background: #cfdaf1;
+}
+
+.cta-inner {
+  background: #b6ccf3;
+}
+
+.body-wrap {
+  background: #f4f4f4;
+}
+
+.is-boxed {
+  background: #b3c2e0;
+}
